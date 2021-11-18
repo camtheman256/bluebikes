@@ -10,6 +10,7 @@ pandas = "*"
 requests = "*"
 ipython = "*"
 pytz = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.9"

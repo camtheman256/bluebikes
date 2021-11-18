@@ -70,3 +70,6 @@ bluebikes-*.json
 
 # compiled outputs
 csv/*.csv
+
+# alltrips data
+csv/alltrips/data

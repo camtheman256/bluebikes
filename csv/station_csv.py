@@ -8,4 +8,4 @@ station_info = requests.get("https://gbfs.bluebikes.com/gbfs/en/station_informat
 station_df = pd.DataFrame(station_info["data"]["stations"])
 station_df["last_updated"] = station_info["last_updated"]
 
-station_df.to_csv("stations.csv")
+station_df.to_csv("stations.csv", index_label='idx')
