@@ -15,4 +15,4 @@ def parse_dataset(fp):
     return station_df
 
 big_df = reduce(lambda df, new: df.append(new), (parse_dataset(fp) for fp in os.listdir('data')))
-big_df.to_csv("station_statuses.csv")
+big_df.to_csv("station_statuses.csv", index_label='idx')
