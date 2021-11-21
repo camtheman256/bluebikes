@@ -73,3 +73,6 @@ csv/*.csv
 
 # alltrips data
 csv/alltrips/data
+
+# gross mac stuff
+.DS_Store
